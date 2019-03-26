@@ -1,0 +1,32 @@
+{
+  "name": "reactnativelocal",
+  "version": "1.0.0",
+  "description": "react native local",
+  "main": "node_modules/expo/AppEntry.js",
+  "author": "Iban Balasch",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react-native"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibanjb/ReactNativeLocal.git"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "^32.0.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-ui-kitten": "^3.1.2"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0"
+  },
+  "private": true
+}
